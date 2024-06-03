@@ -1,0 +1,144 @@
+/*TABLET*/
+@media (max-width: 43.75em) {
+
+    .hero {
+        width: 40em;
+        height: 20em;
+    }
+    
+    .hero:hover {
+        width: 40em;
+        height: 20em;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+
+    .cta {
+        font-size: 1.5rem;
+    }
+    
+    .cta2 {
+        font-size: 1.5rem;
+    }
+
+    video {
+        display: block;
+        margin: auto;
+        width: 35em;
+        height: 35em;
+    }
+    
+    .CarsLogo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .CarsLogo img {
+        display: block;
+        margin: auto;
+    }
+
+    .car-inside {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5em;
+    }
+}
+
+/*MOBILE*/
+@media (max-width: 31.25em) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Logo {
+        display: block;
+        width: 12em;
+        height: 4em;
+        margin: auto;
+        padding-top: 1.5em;
+    }
+
+    .hero {
+        width: 26.6em;
+        height: 15em;
+    }
+    
+    .hero:hover {
+        width: 27em;
+        height: 15em;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+
+    .cta {
+        font-size: 1.5rem;
+    }
+    
+    .cta2 {
+        font-size: 1.5rem;
+    }
+
+    video {
+        display: block;
+        margin: auto;
+        width: 24em;
+        height: 24em;
+    }
+    
+    .CarsLogo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .CarsLogo img {
+        display: block;
+        margin: auto;
+    }
+
+    .Lambo-Logo {
+        width: 11em;
+        height: 13em;
+    }
+    
+    .Ferrari-Logo {
+        width: 10em;
+        height: 13em;
+    }
+        
+    .Bugatti-Logo {
+        width: 13em;
+        height: 13em;
+    }
+    
+    .AM-Logo {
+        width: 15em;
+        height: 5em;
+    }
+    
+    .Audi-Logo {
+        width: 15em;
+        height: 6em;
+    }
+    
+    .CarsLogo figure {
+        width: 15em;
+        height: 15en;
+        padding: 1em;
+    }
+    
+    .car-inside {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5em;
+    }
+}
+

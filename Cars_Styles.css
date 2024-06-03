@@ -1,0 +1,331 @@
+
+body {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(255, 100%, 100%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.Logo {
+    height: 4em;
+    width: 14em;
+    margin: 0.5em;
+    padding: 0.2em;
+}
+
+nav {
+    display: block;
+}
+
+ul {
+    display: flex;
+    margin: 1em auto;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    margin: 1em;
+    padding: 0;
+    align-items: center;
+    font: 1.23rem sans-serif;   
+}
+
+a {
+    color: hsl(0, 100%, 100%);
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(43, 74%, 49%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2em;
+    background-color: hsla(0, 0%, 0%, 5%);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background: url(Assets/Images/Ferrari-Car.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 83.55em;
+    height: 33.5em;
+    align-items: center;
+    justify-content:space-between;
+    transition: ease-in 0.9s;
+    margin: auto;
+}
+
+.hero:hover {
+    background: url(Assets/Images/Lambo-Car.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 83.55em;
+    height: 33.5em;
+    transition-delay: 5ms;
+}
+
+.hero > h1 {
+    color: #000;
+}
+
+h1 {
+    font-size: 3rem;
+    color: hsl(0, 0%, 100%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+}
+
+.cta {
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    background-color: #000;
+    color: hsl(0, 0%, 70%);
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    transition: ease-in 0.9s;
+    border: none;
+    margin-bottom: 0.2em;
+}
+
+.cta:hover {
+    color: hsl(43, 74%, 29%);
+    cursor: pointer;
+    transition-delay: 5ms;
+}
+
+.cta2 {
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: transparent;
+    color: hsl(0, 0%, 0%);
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    transition: ease-in 0.9s;
+    border: 0.2em #000 solid;
+    margin-bottom: 0.2em;
+}
+
+.cta2:hover {
+    background-color: hsl(43, 74%, 29%);
+    cursor: pointer;
+    transition-delay: 5ms;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+figcaption {
+    text-align: center;
+    margin: 0.5em 0;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.CarsLogo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Lambo-Logo {
+    width: 11em;
+    height: 13em;
+    margin: 1em;
+    transition: ease-in-out 0.9s;
+    cursor: pointer;
+}
+
+.Ferrari-Logo {
+    width: 10em;
+    height: 13em;
+    margin: 1em;
+    transition: ease-in-out 0.9s;
+    cursor: pointer;
+}
+
+.Cars-Logo {
+    width: 13em;
+    height: 13em;
+    margin: 1em;
+    transition: ease-in-out 0.9s;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.Bugatti-Logo {
+    width: 13em;
+    height: 13em;
+    margin: 1em;
+    transition: ease-in-out 0.9s;
+    cursor: pointer;
+}
+
+.AM-Logo {
+    width: 35em;
+    height: 11em;
+    margin: 1em;
+    transition: ease-in-out 0.9s;
+    cursor: pointer;
+}
+
+.Audi-Logo {
+    width: 28em;
+    height: 11em;
+    margin: 1em;
+    transition: ease-in-out 0.9s;
+    cursor: pointer;
+}
+
+.Lambo-Logo:hover {
+    transition-delay: 5ms;
+    background-color: hsl(43, 74%, 29%);
+}
+
+.Ferrari-Logo:hover {
+    transition-delay: 5ms;
+    background-color: hsl(43, 74%, 29%);
+}
+
+.Cars-Logo:hover {
+    transition-delay: 5ms;
+    background-color: hsl(43, 74%, 29%);
+}
+
+.Bugatti-Logo:hover {
+    transition-delay: 5ms;
+    background-color: hsl(43, 74%, 29%);
+}
+
+.AM-Logo:hover {
+    transition-delay: 5ms;
+    background-color: hsl(43, 74%, 29%);
+}
+
+.Audi-Logo:hover {
+    transition-delay: 5ms;
+    background-color: hsl(43, 74%, 29%);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sm {
+    display: flex;
+    position: relative;
+}
+
+.FB {
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.FB-GOLD {
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+    cursor: pointer;
+    position: absolute;
+    transition: ease-in 0.3s;
+    opacity: 0;
+    left: 0;
+}
+
+.FB-GOLD:hover {
+    transition-delay: 0ms;
+    opacity: 1;
+}
+
+.X {
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.X-GOLD {
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+    cursor: pointer;
+    position: absolute;
+    transition: ease-in 0.3s;
+    opacity: 0;
+    left: 5em;
+}
+
+.X-GOLD:hover {
+    transition-delay: 0ms;
+    opacity: 1;
+}
+
+.heading {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.car-inside {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em;
+}
+
+.Shop {
+    height: 15em;
+    width: 30em;
+}
+
+.Seats {
+    height: 15em;
+    width: 15em;
+}
+
+.Wheels {
+    height: 15em;
+    width: 25em;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.info {
+    margin: 1em;
+}
+
+.inside {
+    margin: 1em;
+}
