@@ -58,7 +58,7 @@ section {
 .hero {
     display: flex;
     flex-direction: column;
-    background: url(Assets/Images/Ferrari-Car.jpg);
+    background: url(Images/Ferrari-Car.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -71,7 +71,7 @@ section {
 }
 
 .hero:hover {
-    background: url(Assets/Images/Lambo-Car.jpg);
+    background: url(Images/Lambo-Car.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
