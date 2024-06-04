@@ -1,5 +1,5 @@
 /*TABLET*/
-@media (max-width: 43.75em) {
+@media (max-width: 75em) {
     
     .hero {
         width: 48.9em;
@@ -47,7 +47,7 @@
 }
 
 /*MOBILE*/
-@media (max-width: 31.25em) {
+@media (max-width: 43.75em) {
 
     header {
         display: flex;
