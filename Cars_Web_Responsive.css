@@ -1,15 +1,14 @@
 /*TABLET*/
-@media (max-width: 43.75em) {
-
+@media (max-width: 7100px) {
+    
     .hero {
-        width: 40em;
-        height: 20em;
+        width: 48.9em;
+        height: 25em;
     }
     
     .hero:hover {
-        width: 40em;
-        height: 20em;
-    }
+        width: 48.9em;
+        height: 25em;    }
     
     h1 {
         font-size: 2rem;
@@ -66,13 +65,13 @@
     }
 
     .hero {
-        width: 26.6em;
-        height: 15em;
+        width: 22em;
+        height: 11em;
     }
     
     .hero:hover {
-        width: 27em;
-        height: 15em;
+        width: 22em;
+        height: 11em;
     }
     
     h1 {
@@ -90,8 +89,8 @@
     video {
         display: block;
         margin: auto;
-        width: 24em;
-        height: 24em;
+        width: 20em;
+        height: 20em;
     }
     
     .CarsLogo {
@@ -137,8 +136,27 @@
     
     .car-inside {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         padding: 0.5em;
     }
+
+    .Shop {
+        height: 9em;
+        width: 21em;
+    }
+    
+    .Seats {
+        height: 15em;
+        width: 15em;
+    }
+    
+    .Wheels {
+        height: 12em;
+        width: 21em;
+    }
+    
+
 }
 
